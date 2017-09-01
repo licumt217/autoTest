@@ -288,8 +288,8 @@ def go2ParkList():
 
 # 订单列表页面相关操作：遍历所有的当前单子和待还款单子和一条历史订单
 def handleOrders():
-    handleCurOrders()
-    handleToPayOrders()
+    # handleCurOrders()
+    # handleToPayOrders()
     handleHistoryOrders()
 
 def handleParkList():
@@ -313,8 +313,8 @@ def handleParkList():
     time.sleep(1)
     # TODO此处滚动不起作用，查下原因
     tjdUtils.scrollBottom(browser, 300)
-    browser.back()
-    time.sleep(5)
+    # browser.back()
+    # time.sleep(5)
 
 
 
